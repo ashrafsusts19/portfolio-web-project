@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="upper-body"></div>
+    <div id="main-body">
+        <header>
+            <nav>
+            <ul>
+                <li class="link"><a href="#about">About</a></li>
+                <li class="link"><a href="#problem-solving">Problem Solving</a></li>
+                <li class="link"><a href="#projects">Projects</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <section id="about" class="section">
+            <div id="about-container">
+                <div>
+                    <h2>About Me</h2>
+                    <p>
+                        I am Ashraf Ibrahim, currently a student of Software Engineering in Shahjalal University
+                        of Science and Technology, a competitive programmer and a terrible web developer. I present you 
+                        my portfolio, consisting of my achievements in development, competitive programming and some personal
+                        information
+                    </p>
+                    <p><b>Contact Me At:</b> ashrafsusts19@gmail.com</p>
+                </div>
+                <img src="img/Me A long Time Ago.jpg">
+            </div>            
+            <div id="swot">                
+                <div class="achievement">                    
+                    <h2>My Strengths</h2>
+                    <ul>                        
+                        <li>Patience</li>
+                        <li>Determination</li>
+                        <li>Creativity (in Problem Solving)</li>
+                    </ul>                    
+                </div>            
+                <div class="achievement">
+                    <h2>My Weaknesses</h2>
+                    <ul>
+                        <li>Poor Temper</li>
+                        <li>Stubbornness</li>
+                        <li>No Creativity (Everywhere Else)</li>
+                    </ul>                    
+                </div>
+            </div>                        
+        </section>
+    
+        <section id="problem-solving" class="section">
+            <div class="container">
+                <h2>Problem Solving</h2>
+                <p>I enjoy tackling complex problems and finding innovative solutions, which is exactly what brings me to competitive programming. Problem solving is a key 
+                    skill that I continuously develop. 
+                </p>
+                <div id="codeforces-profile">                
+                    <div id="codeforces-data"></div>
+                    <div id="codeforces-image"></div>                
+                </div>
+                <div id="contest-history" class="container">
+                    <h1>My Top 5 Contests</h1>
+                    <!-- <p>Goriber contest performance</p> -->
+                </div>      
+                <div id="achievements" class="container">
+                    <h1>Some Memorable Moments in Competitive Programming</h1>
+                    <div class="achievement" data-id="1">                    
+                        <h2>382 Days of Relentless Dediction</h2>
+                        <p>                        
+                            I have over 382 days of problem solving streak in codeforces. For practice, I always try to maintain consistency and
+                            solve the hardest problems within my ability, relying on outside help as little as possible.
+                        </p>
+                        <img src="img\382 Days of Relentless Dedication.png">                    
+                    </div>            
+                    <div class="achievement" data-id="2">
+                        <h2>Solved Problems</h2>
+                        <p>
+                            In my problem solving career, I have over 1200+ solved problems in codeforces. Among these, over 280+ of them are 
+                            rated 1900 or above.
+                        </p>
+                        <img src="img\Solve count 22-6-2023.png">                    
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="projects" class="section">
+            <div class="container">
+                <h1>Projects</h1>
+                <div class="achievement">
+                    <h2>First Python Project with OOP</h2>
+                    <p>I made this snake game in my second semester which included fully custom-made maps,
+                        a built-in map builder, customizable settings etc.
+                    </p>
+                    <img src="img\Snake Game.png">
+                </div>
+                <div class="achievement">
+                    <h2>Perlin-like Noise Generator in Python</h2>
+                    <p>
+                        In my freshman year, I spent time learning random stuff, among which there was this one algorithm 
+                        I learnt that allowed my generate Perlin like Noise. I made this 2d visualization of perlin noise                        
+                        using pygame in python.
+                    </p>
+                    <img src="img\Perlin Noise.png">
+                </div>
+                <div class="achievement">
+                    <h2>3d Engine in Python</h2>
+                    <p>A 3d Engine I started working on but didn't finish. Unfortunately, right now
+                        it only generates a 3d cube moving from top-right corner to bottom-left.
+                    </p>
+                    <img src="img\3d Engine.png">
+                </div>
+                <div class="achievement">
+                    <h2>Maze Generator in Python</h2>
+                    <p>
+                        Back then when I hadn't started competitive programming yet, I made this random maze generator
+                        app using python. It used to generate random mazes using randomized dfs and also included a functionality
+                        to find path between any two nodes
+                    </p>
+                    <img src="img\Maze Gen 2.png">
+                    <!-- <img src="img\Maze Gen 1.png"> -->
+                </div>
+                <div class="achievement">
+                    <h2>First Java OOP Project</h2>
+                    <p>
+                        Inspired by my python project, I decided that I will build a Tetris game from scratch with fully 
+                        customizable blocks, in-game block builder, game-modes, settings etc. Back then I unintentionally 
+                        used (although poorly designed) some design pattern ideas which I came to learn latter in my 5th 
+                        semester.
+                    </p>
+                    <img src="img\Tetris.png">                    
+                </div>
+                <div class="achievement">
+                    <h2>Nes Emulator</h2>
+                    <p>
+                        Developing the nes emulator was a difficult task, and I still have some bugs unsolved as you can see
+                        in the image. Cumbersome coding, lack of testing envioronment made this project very difficult and tedious
+                        to debug and complete. Also, I had the graphics rendering done using cpu. Which made the 
+                        application very CPU intensive and slow given the hardware I was trying to emulate. But good achievement for me anyways.                        
+                    </p>
+                    <img src="img\Nes Emulator.png">                    
+                </div>
+            </div>                            
+        </section>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
